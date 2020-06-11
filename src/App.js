@@ -51,7 +51,7 @@ export default () => {
       params: {
         part: "snippet",
         maxResults: 7,
-        key: process.env.YT_API,
+        key: REACT_APP_YT_API,
         q: searchTerm,
       },
     });
