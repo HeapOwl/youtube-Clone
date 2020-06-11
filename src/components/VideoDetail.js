@@ -4,7 +4,14 @@ export default ({ video }) => {
   if (!video)
     return (
       <div>
-        <h1 className="title">Search on Clonned YT!</h1>
+        <section class="hero is-primary is-medium is-success is-bold">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">Search to Watch</h1>
+              <h2 class="subtitle">on YT clone</h2>
+            </div>
+          </div>
+        </section>
       </div>
     );
 
