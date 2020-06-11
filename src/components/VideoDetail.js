@@ -27,14 +27,6 @@ export default ({ video }) => {
 
         <div className="card-content">
           <div className="media">
-            <div className="media-left">
-              <figure className="image ">
-                <img
-                  src="https://bulma.io/images/placeholders/96x96.png"
-                  alt="Placeholder"
-                />
-              </figure>
-            </div>
             <div className="media-content">
               <p className="title is-4">
                 {" "}

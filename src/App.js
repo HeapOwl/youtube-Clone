@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-
 import { SearchBar, VideoList, VideoDetail } from "./components";
 import NavBar from "./components/Navbar";
 import youtube from "./api/youtube";
 
+require("dotenv").config();
 export default () => {
   const [videos, setVideos] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -27,7 +27,7 @@ export default () => {
         <div className="content has-text-centered">
           <p>
             Made with <i className="fa fa-heart has-text-danger"></i> by
-            <strong> Prateek Rai </strong>
+            <strong> Prateek Rai</strong>
           </p>
           <a
             className="has-text-danger"
@@ -51,7 +51,7 @@ export default () => {
       params: {
         part: "snippet",
         maxResults: 7,
-        key: REACT_APP_YT_API,
+        key: process.env.REACT_APP_YT_API,
         q: searchTerm,
       },
     });
