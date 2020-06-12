@@ -5,7 +5,7 @@ In this tutorial we are going to build a YouTube Clone Application from Scratch 
 
 Setup:
 - move a copy of .env.sample to .env and paste your API-key
-- run ```npm i && npm start``` to start the development server
+- run ```yarn install  &&  yarn start``` to start the development server
 
 Covered topics:
 - project structure
