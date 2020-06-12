@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/youtube-Clone/static/js/main.5e1d7eee.chunk.js",
-    "main.js.map": "/youtube-Clone/static/js/main.5e1d7eee.chunk.js.map",
+    "main.js": "/youtube-Clone/static/js/main.e799e7fa.chunk.js",
+    "main.js.map": "/youtube-Clone/static/js/main.e799e7fa.chunk.js.map",
     "runtime~main.js": "/youtube-Clone/static/js/runtime~main.05533d43.js",
     "runtime~main.js.map": "/youtube-Clone/static/js/runtime~main.05533d43.js.map",
     "static/js/2.326c9171.chunk.js": "/youtube-Clone/static/js/2.326c9171.chunk.js",
     "static/js/2.326c9171.chunk.js.map": "/youtube-Clone/static/js/2.326c9171.chunk.js.map",
     "index.html": "/youtube-Clone/index.html",
-    "precache-manifest.a8449e2c6dd17861d01cf277e6601913.js": "/youtube-Clone/precache-manifest.a8449e2c6dd17861d01cf277e6601913.js",
+    "precache-manifest.76786f26185dadc782e0c13b028c0a15.js": "/youtube-Clone/precache-manifest.76786f26185dadc782e0c13b028c0a15.js",
     "service-worker.js": "/youtube-Clone/service-worker.js"
   }
 }
