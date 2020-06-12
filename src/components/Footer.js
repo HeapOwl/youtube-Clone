@@ -10,11 +10,11 @@ export default () => (
         className="has-text-danger"
         href="https://www.instagram.com/prateek.py/"
       >
-        <i class="fab fa-instagram fa-2x"></i>
+        <i className="fab fa-instagram fa-2x"></i>
       </a>{" "}
       &nbsp;
       <a href="https://github.com/HeapOwl" className="has-text-success">
-        <i class="fab fa-github fa-2x"></i>
+        <i className="fab fa-github fa-2x"></i>
       </a>
     </div>
   </footer>

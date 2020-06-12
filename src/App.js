@@ -39,13 +39,14 @@ export default () => {
     } = await youtube.get("search", {
       params: {
         part: "snippet",
-        maxResults: 7,
+        maxResults: 6,
         key: process.env.REACT_APP_YT_API,
         q: searchTerm,
       },
     });
-
     setVideos(videos);
-    setSelectedVideo(videos[0]);
+    if (videos[0].id.kind === "youtube#video") {
+      setSelectedVideo(videos[0]);
+    } else setSelectedVideo(videos[1]);
   }
 };
